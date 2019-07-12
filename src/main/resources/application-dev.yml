@@ -1,0 +1,19 @@
+#spring
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/demo?socketTimeout=10000&autoReconnect=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+logback:
+  logDir: log/dev
+
+logging:
+  level:
+    com.hong.lei.service.impl: trace
+    com.hong.lei.controller: trace

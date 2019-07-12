@@ -1,0 +1,17 @@
+2019-07-12 17:09:02.128 [main] INFO  com.hong.lei.Application - Starting Application on localhost with PID 54414 (/Users/leihong/Dvpt/backend/springboot-mybatis-plus/target/classes started by leihong in /Users/leihong/Dvpt/backend/springboot-mybatis-plus)
+2019-07-12 17:09:02.133 [main] INFO  com.hong.lei.Application - The following profiles are active: dev
+2019-07-12 17:09:03.608 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e90a65a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-12 17:09:04.022 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-07-12 17:09:04.046 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-12 17:09:04.060 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-12 17:09:04.060 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-07-12 17:09:04.200 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-12 17:09:04.201 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1995 ms
+2019-07-12 17:09:04.836 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-07-12 17:09:05.026 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-12 17:09:05.719 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-07-12 17:09:05.762 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-07-12 17:09:05.803 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-07-12 17:09:05.990 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-07-12 17:09:06.047 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-12 17:09:06.052 [main] INFO  com.hong.lei.Application - Started Application in 4.915 seconds (JVM running for 5.554)
