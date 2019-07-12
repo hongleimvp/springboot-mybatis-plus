@@ -1,1 +1,1 @@
-# edu-management
+# springboot-mybatis-plus
